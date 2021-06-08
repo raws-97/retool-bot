@@ -676,3 +676,7 @@ def clasificationLoop(data_list):
         elif data['building_type'].lower() == 'ruko' and data['listing_type'].lower() == 'sewa':
             sewaRuko(data)
     driver.quit()
+
+
+
+#This is Comment

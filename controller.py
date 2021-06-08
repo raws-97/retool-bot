@@ -1,3 +1,7 @@
+#Created by : Putra
+#Updated at 08 June 2020 11:00
+
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -676,7 +680,3 @@ def clasificationLoop(data_list):
         elif data['building_type'].lower() == 'ruko' and data['listing_type'].lower() == 'sewa':
             sewaRuko(data)
     driver.quit()
-
-
-
-#Updated at 08 June 2020 11:00
